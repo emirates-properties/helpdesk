@@ -17,6 +17,7 @@ export default defineConfig({
         outDir: `../helpdesk/public/desk`,
         emptyOutDir: true,
         indexHtmlPath: "../helpdesk/www/helpdesk/index.html",
+        sourcemap: true,
       },
     }),
     vue(),
@@ -41,6 +42,7 @@ export default defineConfig({
         name: "Frappe Helpdesk",
         short_name: "Helpdesk",
         start_url: "/helpdesk",
+        theme_color: "#ffffff",
         description:
           "Modern, Streamlined, Free and Open Source Customer Service Software",
         icons: [
@@ -86,6 +88,7 @@ export default defineConfig({
       "prosemirror-state",
       "prosemirror-view",
       "lowlight",
+      "interactjs",
     ],
   },
 });
