@@ -5,9 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/assets/helpdesk/desk/ && yarn copy-html-entry && yarn link-assets",
+    "build": "vite build --base=/assets/helpdesk/desk/ && yarn copy-html-entry ",
     "copy-html-entry": "cp ../helpdesk/public/desk/index.html ../helpdesk/www/helpdesk.html",
-    "link-assets": "mkdir -p ../../sites/assets && ln -sfn $(pwd)/../helpdesk/public ../../sites/assets/helpdesk",
     "serve": "vite preview"
   },
   "dependencies": {
