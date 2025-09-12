@@ -102,7 +102,7 @@
    "no_copy": 1,
    "oldfieldname": "status",
    "oldfieldtype": "Select",
-   "options": "Open\nReplied\nResolved\nClosed",
+   "options": "Open\nIn Progress\nResolved\nClosed\nHold",
    "search_index": 1
   },
   {
@@ -440,7 +440,7 @@
  "icon": "fa fa-issue",
  "idx": 61,
  "links": [],
- "modified": "2025-07-31 23:00:50.969299",
+ "modified": "2025-09-08 14:00:41.246873",
  "modified_by": "Administrator",
  "module": "Helpdesk",
  "name": "HD Ticket",
